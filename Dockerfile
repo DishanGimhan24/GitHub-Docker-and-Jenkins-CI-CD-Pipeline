@@ -13,5 +13,5 @@ RUN npm install
 # Expose port 3000 to allow incoming connections to the container
 EXPOSE 3000  
 
-# Start the application by running the "npm start" command
+# Start the application by   running the "npm start" command
 CMD [ "npm", "start" ]  
